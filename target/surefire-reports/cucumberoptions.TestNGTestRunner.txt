@@ -1,28 +1,48 @@
 -------------------------------------------------------------------------------
 Test set: cucumberoptions.TestNGTestRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 363.21 s <<< FAILURE! - in cucumberoptions.TestNGTestRunner
-runScenario(cucumberoptions.TestNGTestRunner)  Time elapsed: 170.327 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//button[text()='OK'])[2]"}
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 31.363 s <<< FAILURE! - in cucumberoptions.TestNGTestRunner
+runScenario(cucumberoptions.TestNGTestRunner)  Time elapsed: 27.097 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=110.0.5481.178)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'HIN-HZGW2Z2-LT', ip: '10.17.74.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [70fc8215ce2c4a924984e5a16d12ee23, findElement {using=xpath, value=(//button[text()='OK'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, browserstack.console: enable, browserstack.debug: true, browserstack.video: true, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\lginne\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62969}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.100.5:4444/ses..., se:cdpVersion: 110.0.5481.178, se:recordVideo: true, se:timeZone: IST, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 70fc8215ce2c4a924984e5a16d12ee23
+Command: [dc3173af60bf3a7956e18195b50dc4ed, findElement {using=link text, value=Add ERP Policy}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, browserstack.console: enable, browserstack.debug: true, browserstack.video: true, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\lginne\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.100.5:4444/ses..., se:cdpVersion: 110.0.5481.178, se:recordVideo: true, se:timeZone: IST, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc3173af60bf3a7956e18195b50dc4ed
 
-runScenario(cucumberoptions.TestNGTestRunner)  Time elapsed: 193.928 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//button[text()='OK'])[2]"}
+runScenario(cucumberoptions.TestNGTestRunner)  Time elapsed: 27.419 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=110.0.5481.178)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'HIN-HZGW2Z2-LT', ip: '10.17.74.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2506041e70b3f1f027387dba81babb7f, findElement {using=xpath, value=(//button[text()='OK'])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, browserstack.console: enable, browserstack.debug: true, browserstack.video: true, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\lginne\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.100.5:4444/ses..., se:cdpVersion: 110.0.5481.178, se:recordVideo: true, se:timeZone: IST, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2506041e70b3f1f027387dba81babb7f
+Command: [d99dbea57d93649ecdb6f9f2c3e653d3, findElement {using=link text, value=Add ERP Policy}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, browserstack.console: enable, browserstack.debug: true, browserstack.video: true, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\lginne\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.100.5:4444/ses..., se:cdpVersion: 110.0.5481.178, se:recordVideo: true, se:timeZone: IST, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d99dbea57d93649ecdb6f9f2c3e653d3
+
+runScenario(cucumberoptions.TestNGTestRunner)  Time elapsed: 28.139 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'HIN-HZGW2Z2-LT', ip: '10.17.74.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [42d52cb235bec3540141363c7c64a6dd, findElement {using=link text, value=Add ERP Policy}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, browserstack.console: enable, browserstack.debug: true, browserstack.video: true, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\lginne\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.100.5:4444/ses..., se:cdpVersion: 110.0.5481.178, se:recordVideo: true, se:timeZone: IST, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42d52cb235bec3540141363c7c64a6dd
+
+runScenario(cucumberoptions.TestNGTestRunner)  Time elapsed: 28.89 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.linkText: Add ERP Policy
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'HIN-HZGW2Z2-LT', ip: '10.17.74.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
 
