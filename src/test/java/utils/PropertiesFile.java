@@ -41,12 +41,12 @@ public class PropertiesFile {
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
-//        } finally {
-//            try {
-//                fis.close();
-//            } catch (IOException e) {
-//                throw new RuntimeException(e);
-//            }
+        } finally {
+            try {
+                fis.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
         return prop;
     }
