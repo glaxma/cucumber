@@ -43,9 +43,7 @@ public class PropertiesFile {
             throw new RuntimeException(e);
         } finally {
             try {
-                if (fis!=null) {
-                    fis.close();
-                }
+                fis.close();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
