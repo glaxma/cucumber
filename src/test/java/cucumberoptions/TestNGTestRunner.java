@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
         , glue = {"stepdefinition"}, monochrome = true,
 //        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         plugin = {"json:target/jsonReports/cucumber.json","rerun:target/failed_scenarios.txt"},
-        tags = "@LD_ACH_Enrollments")
+        tags = "@eRP_CC_Enrollments_TC_01")
 
 public class TestNGTestRunner extends AbstractTestNGCucumberTests {
 
